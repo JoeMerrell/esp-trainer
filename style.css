@@ -68,7 +68,7 @@ body {
 
 /* LAYOUT */
 #foursquare {
-  position: relative;
+  position: absolute;
   width: 50rem;
   height: 50rem;
   background-color: rgba(255, 255, 255, 0.35);
@@ -82,11 +82,11 @@ body {
 
 #title {
   position: absolute;
+  text-align: center;
   top: 10%;
-
   color: white;
   font-family: inherit;
-  font-size: 3rem;
+  font-size: 2.5rem;
   text-transform: uppercase;
 }
 /* ELEMENTS */
@@ -164,13 +164,17 @@ body {
 
 /* ABSOLUTE POSITIONED ELEMENTS */
 .btn {
-  position: absolute;
+  position: relative;
   left: 50%;
-  bottom: 15%;
+  bottom: auto;
+
   transform: translateX(-50%);
   color: #444;
   background: none;
-  border: none;
+
+  width: 10rem;
+  display: flex;
+
   font-family: inherit;
   font-size: 1.8rem;
   text-transform: uppercase;

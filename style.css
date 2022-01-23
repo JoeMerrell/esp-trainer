@@ -80,6 +80,15 @@ body {
   display: flex;
 }
 
+#title {
+  position: absolute;
+  top: 10%;
+
+  color: white;
+  font-family: inherit;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
 /* ELEMENTS */
 
 /* .box {
@@ -157,6 +166,7 @@ body {
 .btn {
   position: absolute;
   left: 50%;
+  bottom: 15%;
   transform: translateX(-50%);
   color: #444;
   background: none;
@@ -177,11 +187,11 @@ body {
   box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
 }
 
-.btn::first-letter {
+/* .btn::first-letter {
   font-size: 2.4rem;
   display: inline-block;
   margin-right: 0.7rem;
-}
+} */
 
 .btn--new {
   top: 4rem;

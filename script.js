@@ -7,6 +7,7 @@ const blue = document.querySelector(".blue");
 
 let selection;
 let colorCompare;
+let turnsRemaining;
 
 const checkClick = function () {
   console.log(`${selection} clicked!`);
